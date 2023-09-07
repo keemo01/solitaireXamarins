@@ -49,5 +49,3 @@ Resetting the game board.
 Screenshots
 ![solitaire](https://github.com/keemo01/solitaireXamarins/assets/78498562/d0c85497-4ce5-4677-80eb-3982be973d05)
 
-### License
-This Solitaire game is open-source and available under the MIT License. You are free to use, modify, and distribute the code for personal or commercial purposes, as long as you include the original license and attribution.
