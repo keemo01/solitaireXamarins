@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="solit.MainPage">
+
+    <StackLayout x:Name="MainStackLayout">
+        <Frame Margin="10" BackgroundColor="Gold" Padding="5" HorizontalOptions="Center" WidthRequest="100" HeightRequest="30" CornerRadius="60">
+            <Label Text="Akeem" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Medium"></Label>
+        </Frame>
+
+        <Grid Margin="20, 10, 40, 20" RowDefinitions="40,40,40,40,40,40,40" ColumnDefinitions="40,40,40,40,40,40, 40" x:Name="mySolitaireGrid">
+        </Grid>
+
+        <Label x:Name="InfoLabel" Text=""
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        <Label x:Name="InfoLabel_saveLoad" Text=""
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+        <Button x:Name="SaveGameButton" Clicked="SaveGameButton_Clicked" Text="Save Game"  Margin="50, 0, 50, 0" ></Button>
+        <Button x:Name="LoadButton" Clicked="LoadButton_Clicked" Text="Load Game"  Margin="50, 0, 50, 0"></Button>
+        <Button x:Name="GameResetButton" Clicked="GameResetButton_Clicked" Text="Reset Game" Margin="50, 0, 50, 40"></Button>
+    </StackLayout>
+
+</ContentPage>
